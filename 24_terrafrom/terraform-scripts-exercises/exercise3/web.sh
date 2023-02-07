@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# yum install wget unzip httpd -y
 sudo apt update
 sudo apt install wget unzip apache2 -y
 

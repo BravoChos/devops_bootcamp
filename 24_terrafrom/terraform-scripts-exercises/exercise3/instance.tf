@@ -17,7 +17,7 @@ resource "aws_instance" "pineapple-inst" {
   connection {
     type        = "ssh"
     user        = var.USER
-    private_key = file("./dove.pem")
+    private_key = file("./pineapple-key.pem")
     host        = self.public_ip
   }
 
