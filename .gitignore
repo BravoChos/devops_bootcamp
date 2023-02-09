@@ -1,0 +1,6 @@
+.terraform
+.terraform.lock.hcl
+
+// private key
+pineapplekey
+pineapple-key.pem
